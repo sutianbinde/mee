@@ -4,7 +4,7 @@
   "description": "MVVM 框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --config build/dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
