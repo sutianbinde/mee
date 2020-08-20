@@ -1,0 +1,27 @@
+{
+  "name": "mee",
+  "version": "1.0.0",
+  "description": "MVVM 框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutianbinde/mee.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sutianbinde/mee/issues"
+  },
+  "homepage": "https://github.com/sutianbinde/mee#readme",
+  "dependencies": {
+    "eslint": "^5.14.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
