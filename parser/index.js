@@ -88,6 +88,7 @@ export default function parse (
         },
         // 字符
         chars (text) {
+            if (!currentParent) return;
             const children = currentParent.children
             let expression
             // 处理字符
